@@ -1,5 +1,5 @@
 {
-  "name": "websockets project",
+  "name": "websocket_chat",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",

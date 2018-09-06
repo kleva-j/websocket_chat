@@ -6,7 +6,6 @@ const app = express();
 app.use(express.static('Public'));
 
 app.get('*', (req, res) => {
-  console.log(req.method + ".." + req.url);
   res.status(404)
   .send('Welcome to WebSockets_Api, this route does not exist');
 });
