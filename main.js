@@ -6,7 +6,7 @@
   const sendButton = form.children[1];
 
   // Establish a socket connection to the server
-  const socket = io.connect('http://localhost:3000');
+  const socket = io.connect('/');
 
   // Listen fo submit events
   form.addEventListener('submit', (event) => {
